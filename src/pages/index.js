@@ -1,17 +1,27 @@
+import Card from "../components/card/Card";
 import Footer from "../components/Navbar/Footer/Footer";
 import Header from "../components/Navbar/Header/Header";
 import Styles from "../styles/Home.module.css";
 import ComingSoon from "../svgs/ComingSoon";
+import Slider from "react-slick";
 
 export default function Home() {
+  //   const settings = {
+  //     dots: true,
+  //     infinite: true,
+  //     speed: 500,
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1,
+  //   };
   return (
     <>
       <Header />
       <section className={Styles.mainSection}>
         <p className={Styles.findemy}>FINDEMY</p>
         <p className={Styles.tagline}>Your one stop financial soultion</p>
-        {/* <button className={Styles.comingSoon}>Coming Soon</button> */}
-        <ComingSoon />
+        <div className={Styles.comingSoon}>
+          <ComingSoon />
+        </div>
       </section>
       <section className={Styles.ovalSection}>
         <p>Suscribe for latest updates and early access</p>
@@ -39,10 +49,21 @@ export default function Home() {
           marketing
         </p>
         <div className={Styles.blogShowcase}>
-          <div>Hello</div>
-          <div>Hello</div>
-          <div>Hello</div>
-          <div>Hello</div>
+          {/* <Slider
+            {...{
+              dots: true,
+              infinite: true,
+              speed: 500,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }}
+          > */}
+          {/* maybe all the cards needs to be wrapped in a div like <div><Card/></div> */}
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          {/* </Slider> */}
         </div>
       </section>
       <Footer />
