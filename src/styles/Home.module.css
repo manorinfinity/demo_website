@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+.mainSection {
+  background: linear-gradient(
+      rgba(16, 177, 171, 0.589),
+      rgba(16, 177, 171, 0.589)
+    ),
+    url(../svgs/Mask\ Group\ 24@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  font-family: "Montserrat", sans-serif;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.findemy {
+  font-size: 3rem;
+}
+
+.tagline {
+  font-size: 2rem;
+}
+.comingSoon {
+  background: none;
+  border: 1px solid white;
+  height: 3rem;
+  width: 13rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.comingSoon:focus {
+  outline: none;
+}
+
+.ovalSection {
+  background: linear-gradient(#fff4e500, #0fa6a154),
+    url(../svgs/Oval.png) 0% 0% no-repeat padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
