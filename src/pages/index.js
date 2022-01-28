@@ -1,6 +1,7 @@
 import Footer from "../components/Navbar/Footer/Footer";
 import Header from "../components/Navbar/Header/Header";
 import Styles from "../styles/Home.module.css";
+import ComingSoon from "../svgs/ComingSoon";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <section className={Styles.mainSection}>
         <p className={Styles.findemy}>FINDEMY</p>
         <p className={Styles.tagline}>Your one stop financial soultion</p>
-        <button className={Styles.comingSoon}>Coming Soon</button>
+        {/* <button className={Styles.comingSoon}>Coming Soon</button> */}
+        <ComingSoon />
       </section>
       <section className={Styles.ovalSection}>
         <p>Suscribe for latest updates and early access</p>
