@@ -3,16 +3,10 @@ import Footer from "../components/Navbar/Footer/Footer";
 import Header from "../components/Navbar/Header/Header";
 import Styles from "../styles/Home.module.css";
 import ComingSoon from "../svgs/ComingSoon";
-import Slider from "react-slick";
+import Carousel from 'react-elastic-carousel'
+
 
 export default function Home() {
-  //   const settings = {
-  //     dots: true,
-  //     infinite: true,
-  //     speed: 500,
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //   };
   return (
     <>
       <Header />
@@ -48,23 +42,26 @@ export default function Home() {
           Join 40,000+ other marketers and get proven strategies on email
           marketing
         </p>
-        <div className={Styles.blogShowcase}>
-          {/* <Slider
-            {...{
-              dots: true,
-              infinite: true,
-              speed: 500,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            }}
-          > */}
-          {/* maybe all the cards needs to be wrapped in a div like <div><Card/></div> */}
+        {/*<div >
           <Card />
           <Card />
           <Card />
           <Card />
-          {/* </Slider> */}
-        </div>
+        </div>*/}
+        <Carousel className={Styles.blogShowcase} itemsToShow={4} showArrows={false}>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </Carousel>
       </section>
       <Footer />
     </>

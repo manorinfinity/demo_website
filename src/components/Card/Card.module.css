@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;900&display=swap");
 .card {
-  height: 10rem;
+  /* height: 10rem; */
   width: 17rem;
   background-image: url("../../svgs/1.png");
   font-family: "Poppins", sans-serif;
