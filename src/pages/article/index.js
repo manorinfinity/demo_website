@@ -108,7 +108,35 @@ function Article() {
             <p>creativewithjoy</p>
           </div>
         </div>
-        <div>hi</div>
+        <div className={Styles.sideBar}>
+          <p>Categories</p>
+          <ul>
+            <li>
+              <a href="/">Basic finance</a>
+              <span>(42)</span>
+            </li>
+            <li>
+              <a href="/">Planning</a>
+              <span>(42)</span>
+            </li>
+            <li>
+              <a href="/">Market</a>
+              <span>(42)</span>
+            </li>
+            <li>
+              <a href="/">Basic finance</a>
+              <span>(42)</span>
+            </li>
+            <li>
+              <a href="/">Planning</a>
+              <span>(42)</span>
+            </li>
+            <li>
+              <a href="/">Market</a>
+              <span>(42)</span>
+            </li>
+          </ul>
+        </div>
       </div>
       <Footer />
     </div>
