@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap");
 .article {
   background-color: #f9f9f9;
 }
@@ -41,5 +42,51 @@
   width: 80vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 70% 30%;
+  margin-top: 2rem;
+  grid-template-columns: 75% 25%;
+}
+.content {
+  display: grid;
+  grid-template-rows: 25rem 20rem 20rem 20rem;
+}
+.euroImage {
+  width: 100%;
+  height: 100%;
+}
+
+.paras > p:first-child {
+  font-family: "Noto Serif", serif;
+}
+
+.paras > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: #63636a;
+}
+
+.paraWithPhoto {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  column-gap: 5%;
+}
+.euroImageSmall {
+  width: 100%;
+}
+
+.smallPara > p {
+  font-size: 0.95rem;
+  color: #63636a;
+  margin: 0.3rem 0;
+  font-weight: 200;
+}
+.smallPara > p:first-child {
+  margin-top: 0 !important;
+}
+
+.lastName {
+  font-family: "Poppins", sans-serif;
+  color: #63636a;
+  font-size: 0.9rem;
+  font-weight: 200;
 }
