@@ -100,6 +100,13 @@ function Article() {
             fringilla. Curabitur blandit tempus porttitor. Donec ullamcorper
             nulla non metus auctor fringilla.
           </div>
+          <div className={Styles.bluePara}>
+            <p>
+              Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut
+              id elit. Donec id elit non mi porta gravida fringilla.
+            </p>
+            <p>creativewithjoy</p>
+          </div>
         </div>
         <div>hi</div>
       </div>
