@@ -3,8 +3,7 @@ import Footer from "../components/Navbar/Footer/Footer";
 import Header from "../components/Navbar/Header/Header";
 import Styles from "../styles/Home.module.css";
 import ComingSoon from "../svgs/ComingSoon";
-import Carousel from 'react-elastic-carousel'
-
+import Carousel from "react-elastic-carousel";
 
 export default function Home() {
   return (
@@ -42,13 +41,11 @@ export default function Home() {
           Join 40,000+ other marketers and get proven strategies on email
           marketing
         </p>
-        {/*<div >
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>*/}
-        <Carousel className={Styles.blogShowcase} itemsToShow={4} showArrows={false}>
+        <Carousel
+          className={Styles.blogShowcase}
+          itemsToShow={4}
+          showArrows={false}
+        >
           <Card />
           <Card />
           <Card />

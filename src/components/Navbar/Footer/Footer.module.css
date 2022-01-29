@@ -2,6 +2,7 @@
 .footer {
   background-color: white;
   border-top: 1px solid #00000029;
+  /* width: 100vw; */
 }
 .navbar {
   font-family: "Raleway", sans-serif;
