@@ -1,13 +1,14 @@
 import React from 'react';
 import Styles from './Header.module.css'
+import Link from 'next/link'
 
 function Header() {
     return <header className={Styles.header}>
         <nav className={Styles.navbar}>
-            <div className={Styles.logo}>Logo</div>
+            <div className={Styles.logo}><Link href='/'>Logo</Link></div>
             <ul className={Styles.link}>
-                <li><a href='/'>Articles</a></li>
-                <li><a href='/'>Blog</a></li>
+                <li><Link href='/article'>Articles</Link></li>
+                <li><Link href='/blog'>Blog</Link></li>
             </ul>
         </nav>
     </header>;

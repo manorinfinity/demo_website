@@ -3,6 +3,7 @@ import Facebook from './Facebook';
 import Instagram from './Instagram';
 import Twitter from './Twitter';
 import Styles from './Footer.module.css'
+import Link from 'next/link'
 
 function Footer() {
     return <footer className={Styles.footer}>
@@ -11,12 +12,12 @@ function Footer() {
                 Logo
             </div>
             <ul className={Styles.link}>
-                <li><a href='/'>About us</a></li>
-                <li><a href='/'>Privacy</a></li>
-                <li><a href='/'>Articles</a></li>
-                <li><a href='/'>Blogs</a></li>
-                <li><a href='/'>Contact us</a></li>
-                <li><a href='/'>Terms and conditions</a></li>
+                <li><Link href='/'>About us</Link></li>
+                <li><Link href='/'>Privacy</Link></li>
+                <li><Link href='/article'>Articles</Link></li>
+                <li><Link href='/blog'>Blogs</Link></li>
+                <li><Link href='/'>Contact us</Link></li>
+                <li><Link href='/'>Terms and conditions</Link></li>
             </ul>
             <ul className={Styles.sociaLink}>
                 <li><Facebook /></li>

@@ -3,6 +3,7 @@
   /* height: 10rem; */
   width: 17rem;
   background-image: url("../../svgs/1.png");
+  cursor: pointer;
   font-family: "Poppins", sans-serif;
   background-size: contain;
   background-repeat: no-repeat;
